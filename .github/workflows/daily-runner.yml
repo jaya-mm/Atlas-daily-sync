@@ -1,9 +1,11 @@
 name: Daily Runner
 
 on:
+  # Scheduled run at 9:00 AM IST (3:30 AM UTC)
   schedule:
-    # Run at 9:00 AM IST every day
-    - cron: "30 3 * * *"  # 3:30 AM UTC is 9:00 AM IST
+    - cron: "30 3 * * *"
+  # Enable manual trigger from GitHub Actions tab
+  workflow_dispatch:
 
 jobs:
   run-script:
