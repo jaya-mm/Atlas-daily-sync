@@ -1,0 +1,9 @@
+Total records in DB: 9766
+Total records available in API: 9771
+Fetching batch with cursor: 9271
+Inserted 16 new records.
+Data Sync Complete! Database is now fully updated.
+Started: 2025-09-24 01:17:19.301463
+CWD: D:\mm\Atlas
+CMD: C:\Users\Datta\AppData\Local\Programs\Python\Python313\python.exe Final-atlasforlast500.py
+

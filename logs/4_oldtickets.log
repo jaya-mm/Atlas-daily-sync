@@ -1,0 +1,20 @@
+Total records available in API: 9771
+Fetching batch with cursor: 0
+Processed 3000 records in this batch.
+Fetching batch with cursor: 3000
+Processed 3000 records in this batch.
+Fetching batch with cursor: 6000
+[ERROR] API request failed, Status: 504 - <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+No more data to process after cursor 6000. Exiting.
+Data Sync Complete! Database is now updated with the latest information.
+Started: 2025-09-24 01:23:23.936265
+CWD: D:\mm\Atlas
+CMD: C:\Users\Datta\AppData\Local\Programs\Python\Python313\python.exe Oldtickets.py
+
